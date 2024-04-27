@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 body{
-    background-image: url('https://github.com/MarioAvilaSL/Practica1.0-Angular/blob/main/src/assets/4845746.jpg?raw=true');
+    background-image: url('src/assets/4845746.jpg');
 }
   
 .texto-blanco {
