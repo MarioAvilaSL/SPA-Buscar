@@ -1,0 +1,23 @@
+<h1>{{heroe.nombre}} | <small>{{heroe.aparicion}}</small> </h1>
+<hr>
+<div class="row">
+	<div class="col-md-4">
+        <br><br>
+        <a href="heroes" class="btn btn-outline-danger btn-block" style="background-color: rgb(255, 153, 0); color: rgb(0, 0, 0);" routerLink="active" [routerLink]="['/heroes']">Regresar</a>
+    </div>
+
+<div class = "col-md-8">
+    <h3>{{heroe.nombre}}</h3>
+    <hr>
+    <p>
+        {{heroe.bio}}
+    </p>
+    <div>
+        <img src = {{heroe.img}} alt="">
+        <img src = "assets/img/marvel.png" *ngIf = "mostrar" alt="Marvel" style="width: 200px;">
+        <img src = "assets/img/dc.jpg" *ngIf = "!mostrar" alt="Marvel" style="width: 200px;">
+
+
+    </div>
+</div>
+</div>
